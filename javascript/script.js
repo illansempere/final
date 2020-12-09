@@ -12,7 +12,7 @@ for(i = 1; i <= 5; i++) {
 }
 
 function show(event) {
-    document.getElementById("form").style.display = 'block';
+    document.getElementById("form").style.display = 'flex';
     display.src = event.target.src;
 }
 

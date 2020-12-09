@@ -16,13 +16,28 @@ body {
     position: relative;
     display: block;
     width: 100%;
-    height: 400px;
-  }
+    height: 80%;
+}
 
 
-section {
-    display: block;
-    
+#form {
+    position: ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 180px;
+    height: 20px;
+    justify-content: center;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    justify-content: center;
 }
 
 @media screen and (min-width: 640px) {
@@ -30,8 +45,7 @@ section {
         width: 640px;
     }
 
-    section {
-        display: flex;
+    #form {
         flex-direction: row;
         justify-content: space-between;
     }
